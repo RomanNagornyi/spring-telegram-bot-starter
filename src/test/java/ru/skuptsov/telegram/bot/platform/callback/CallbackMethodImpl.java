@@ -1,7 +1,7 @@
 package ru.skuptsov.telegram.bot.platform.callback;
 
 import org.springframework.stereotype.Component;
-import org.telegram.telegrambots.api.objects.Message;
+import org.telegram.telegrambots.meta.api.objects.Message;
 
 /**
  * @author Sergey Kuptsov

@@ -1,6 +1,6 @@
 package ru.skuptsov.telegram.bot.platform.handler;
 
-import org.telegram.telegrambots.api.objects.Message;
+import org.telegram.telegrambots.meta.api.objects.Message;
 import ru.skuptsov.telegram.bot.platform.model.UpdateEvent;
 
 import java.util.function.Function;

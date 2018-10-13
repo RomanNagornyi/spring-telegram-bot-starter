@@ -51,6 +51,6 @@ public class BotPlatformStarter {
 
     private static void start(String[] args) {
         log.debug("Starting bot platfrom with configurations [{}]", configs);
-        run(copyOf(configs).toArray(), args);
+        run(copyOf(configs).toArray(new Class[configs.size()]), args);
     }
 }

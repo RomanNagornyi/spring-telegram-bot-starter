@@ -2,7 +2,7 @@ package ru.skuptsov.telegram.bot.platform.model;
 
 import lombok.*;
 import org.joda.time.DateTime;
-import org.telegram.telegrambots.api.objects.Update;
+import org.telegram.telegrambots.meta.api.objects.Update;
 
 /**
  * @author Sergey Kuptsov

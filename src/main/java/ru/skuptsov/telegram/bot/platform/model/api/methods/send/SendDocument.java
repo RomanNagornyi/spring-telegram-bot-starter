@@ -1,12 +1,12 @@
 package ru.skuptsov.telegram.bot.platform.model.api.methods.send;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.telegram.telegrambots.api.methods.BotApiMethod;
-import org.telegram.telegrambots.api.objects.Message;
-import org.telegram.telegrambots.api.objects.replykeyboard.ApiResponse;
-import org.telegram.telegrambots.api.objects.replykeyboard.ReplyKeyboard;
-import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
-import org.telegram.telegrambots.exceptions.TelegramApiValidationException;
+import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
+import org.telegram.telegrambots.meta.api.objects.Message;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ApiResponse;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboard;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiValidationException;
 
 import java.io.File;
 import java.io.IOException;

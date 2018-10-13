@@ -2,12 +2,12 @@ package ru.skuptsov.telegram.bot.platform.model.updatingmessages;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.type.TypeReference;
-import org.telegram.telegrambots.api.methods.BotApiMethod;
-import org.telegram.telegrambots.api.objects.Message;
-import org.telegram.telegrambots.api.objects.replykeyboard.ApiResponse;
-import org.telegram.telegrambots.api.objects.replykeyboard.InlineKeyboardMarkup;
-import org.telegram.telegrambots.exceptions.TelegramApiRequestException;
-import org.telegram.telegrambots.exceptions.TelegramApiValidationException;
+import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
+import org.telegram.telegrambots.meta.api.objects.Message;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ApiResponse;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiValidationException;
 
 import java.io.IOException;
 
@@ -129,6 +129,7 @@ public class EditMessageCaption extends BotApiMethod<Message> {
         }
     }
 
+    @SuppressWarnings("Duplicates")
     @Override
     public void validate() throws TelegramApiValidationException {
         if (inlineMessageId == null) {

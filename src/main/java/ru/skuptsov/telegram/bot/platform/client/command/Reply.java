@@ -1,13 +1,13 @@
 package ru.skuptsov.telegram.bot.platform.client.command;
 
-import org.telegram.telegrambots.api.methods.AnswerCallbackQuery;
-import org.telegram.telegrambots.api.methods.AnswerInlineQuery;
-import org.telegram.telegrambots.api.methods.ForwardMessage;
-import org.telegram.telegrambots.api.methods.send.SendContact;
-import org.telegram.telegrambots.api.methods.send.SendLocation;
-import org.telegram.telegrambots.api.methods.send.SendMessage;
-import org.telegram.telegrambots.api.methods.send.SendVenue;
-import org.telegram.telegrambots.api.objects.Message;
+import org.telegram.telegrambots.meta.api.methods.AnswerCallbackQuery;
+import org.telegram.telegrambots.meta.api.methods.AnswerInlineQuery;
+import org.telegram.telegrambots.meta.api.methods.ForwardMessage;
+import org.telegram.telegrambots.meta.api.methods.send.SendContact;
+import org.telegram.telegrambots.meta.api.methods.send.SendLocation;
+import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.methods.send.SendVenue;
+import org.telegram.telegrambots.meta.api.objects.Message;
 import ru.skuptsov.telegram.bot.platform.client.command.impl.*;
 import ru.skuptsov.telegram.bot.platform.model.UpdateEvent;
 import ru.skuptsov.telegram.bot.platform.model.api.methods.send.*;

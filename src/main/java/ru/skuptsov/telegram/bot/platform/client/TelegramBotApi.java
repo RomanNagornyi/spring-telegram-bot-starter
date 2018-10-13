@@ -1,10 +1,10 @@
 package ru.skuptsov.telegram.bot.platform.client;
 
-import org.telegram.telegrambots.api.methods.AnswerCallbackQuery;
-import org.telegram.telegrambots.api.methods.AnswerInlineQuery;
-import org.telegram.telegrambots.api.methods.BotApiMethod;
-import org.telegram.telegrambots.api.methods.GetUserProfilePhotos;
-import org.telegram.telegrambots.api.objects.*;
+import org.telegram.telegrambots.meta.api.methods.AnswerCallbackQuery;
+import org.telegram.telegrambots.meta.api.methods.AnswerInlineQuery;
+import org.telegram.telegrambots.meta.api.methods.BotApiMethod;
+import org.telegram.telegrambots.meta.api.methods.GetUserProfilePhotos;
+import org.telegram.telegrambots.meta.api.objects.*;
 import ru.skuptsov.telegram.bot.platform.client.command.Reply;
 import ru.skuptsov.telegram.bot.platform.client.impl.TelegramBotApiImpl;
 

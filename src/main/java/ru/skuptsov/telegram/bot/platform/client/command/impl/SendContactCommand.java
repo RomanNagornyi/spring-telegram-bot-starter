@@ -2,7 +2,7 @@ package ru.skuptsov.telegram.bot.platform.client.command.impl;
 
 import lombok.Getter;
 import lombok.ToString;
-import org.telegram.telegrambots.api.methods.send.SendContact;
+import org.telegram.telegrambots.meta.api.methods.send.SendContact;
 
 /**
  * @author Sergey Kuptsov

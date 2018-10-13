@@ -2,7 +2,7 @@ package ru.skuptsov.telegram.bot.platform.handler.resolver;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.telegram.telegrambots.api.objects.CallbackQuery;
+import org.telegram.telegrambots.meta.api.objects.CallbackQuery;
 import ru.skuptsov.telegram.bot.platform.handler.CallbackQueryDataMessageHandler;
 import ru.skuptsov.telegram.bot.platform.model.UpdateEvent;
 

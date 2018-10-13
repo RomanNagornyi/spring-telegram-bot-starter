@@ -2,22 +2,26 @@
 
 [![Release](https://jitpack.io/v/kuptservol/spring-telegram-bot-starter.svg)](https://jitpack.io/#kuptservol/spring-telegram-bot-starter)
 
-Library for fast java telegram bot development powered by spring-boot
+Library for fast java telegram bot development powered by spring-boot. ``
+Added new telegram API library to this forked project.
 
 # Starting example
 - Import library from [spring-telegram-bot-starter](https://jitpack.io/#kuptservol/spring-telegram-bot-starter/1.3)
-Gradle:
+Maven:
 ```
-apply plugin: 'java'
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 
-repositories {
-    mavenCentral()
-    maven { url "https://jitpack.io" }
-}
 
-dependencies {
-    compile 'com.github.kuptservol:spring-telegram-bot-starter:1.3'
-}
+<dependency>
+    <groupId>com.github.kuptservol</groupId>
+    <artifactId>spring-telegram-bot-starter</artifactId>
+    <version>1.5</version>
+</dependency>
 ```
 - Create your first bot
 ```
