@@ -1,7 +1,6 @@
 package ru.skuptsov.telegram.bot.platform.handler.registry.proxy;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.core.BridgeMethodResolver;
 import org.springframework.core.MethodParameter;
@@ -9,6 +8,7 @@ import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.core.annotation.SynthesizingMethodParameter;
 import org.springframework.util.Assert;
 import org.springframework.util.ClassUtils;
+import sun.rmi.runtime.Log;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -17,12 +17,8 @@ import java.lang.reflect.Method;
  * @author Sergey Kuptsov
  * @since 23/07/2016
  */
+@Slf4j
 public class HandlerMethod {
-
-    /**
-     * Logger that is available to subclasses
-     */
-    protected final Log logger = LogFactory.getLog(getClass());
 
     private final Object bean;
 

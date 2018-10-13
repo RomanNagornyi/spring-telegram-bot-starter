@@ -1,6 +1,6 @@
 package ru.skuptsov.telegram.bot.platform.client.command.impl;
 
-import org.telegram.telegrambots.api.methods.AnswerInlineQuery;
+import org.telegram.telegrambots.meta.api.methods.AnswerInlineQuery;
 import ru.skuptsov.telegram.bot.platform.client.TelegramBotApi;
 
 import java.util.concurrent.Future;
