@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.RomanNagornyi</groupId>
     <artifactId>spring-telegram-bot-starter</artifactId>
-    <version>1.5.1</version>
+    <version>1.5.3</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
